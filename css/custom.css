@@ -1,0 +1,20 @@
+#mainnav{
+  font-size: 1.2em;
+  border-bottom: 2px;
+  border-color: #fff;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+
+}
+
+#mainnav li{
+  padding-right:1.4em;
+}
+
+#Jumbotron_home{
+  background-image: url(../assets/WomanBehindLaptop.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}

@@ -1,0 +1,9 @@
+$primary:       #faa540;
+$secondary:     #D32030;
+
+$navbar-dark-color:                 #fff;
+$navbar-dark-active-color:          $secondary;
+
+$font-family-sans-serif:     'Lato', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
