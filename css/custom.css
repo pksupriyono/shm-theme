@@ -12,10 +12,18 @@
   padding-right:1.4em;
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
 #Jumbotron_home{
   background-image: url(../assets/WomanMeeting.jpeg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right bottom;
   background-size: cover;
 }
 
@@ -95,7 +103,7 @@ a #footer:hover{
 }
 
 .left {
-    background: #e9ecef;
+    background: #faa540;
 }
 .right {
     background: url('../assets/arm.jpg') no-repeat center / cover;
