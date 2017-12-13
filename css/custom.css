@@ -13,8 +13,120 @@
 }
 
 #Jumbotron_home{
-  background-image: url(../assets/WomanBehindLaptop.jpeg);
+  background-image: url(../assets/WomanMeeting.jpeg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position: right;
+  background-size: cover;
+}
+
+#Jumbotron_jaarverslag{
+  background-image: url(../assets/YellowShirtWhiteShirt.jpeg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+#footer{
+  background-color: #444444;
+  color: #828282;
+  font-weight: 300;
+}
+
+#end{
+  background-color: #353535;
+    color: #828282;
+    font-weight: 300;
+}
+
+a #end{
+  color: #828282;
+}
+
+a #end:hover{
+  color: #fff;
+}
+
+#footerhead{
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+a #footer{
+  color: #828282;
+}
+
+a #footer:hover{
+  color: #fff;
+}
+
+.greybackground{
+  background-color: #e9ecef;
+}
+
+.card-red{
+  background-color: #D32030;
+  color: #fff;
+}
+
+.card-text{
+  font-weight: 300;
+}
+
+
+.myBackground {
+  background-color: rgba(255,255,255, 0.4);
+  color: inherit;
+}
+
+.greyheader{
+  color: #495057;
+  font-weight: bold;
+}
+
+.card-img-bottom {
+  color: #fff;
+  height: 100%;
+  background: url(../assets/stockface.jpeg) center no-repeat;
+  background-size: cover;
+}
+
+#mix {
+    background: black;
+}
+
+.left {
+    background: #e9ecef;
+}
+.right {
+    background: url('../assets/arm.jpg') no-repeat center / cover;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .half-container {
+    padding-left: 15px;
+    padding-right: 45px;
+    max-width: 375px;
+  }
+
+  .left-half-container {
+    margin-right: -15px;
+  }
+
+  .right-half-container {
+    margin-left: -15px;
+  }
+
+}
+@media (min-width: 992px) {
+  .half-container {
+    max-width: 485px;
+  }
+
+}
+@media (min-width: 1200px) {
+  .half-container {
+    max-width: 585px;
+  }
+
 }
